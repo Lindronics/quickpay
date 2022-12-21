@@ -1,0 +1,17 @@
+[package]
+name = "truelayer-quickpay"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+base64 = "0.20"
+clap = { version = "4", features = ["derive"] }
+dialoguer = "0.10"
+image = "0.24"
+indicatif = "0.17"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+truelayer-rust = { git = "https://www.github.com/TrueLayer/truelayer-rust" }
+viuer = "0.6"
