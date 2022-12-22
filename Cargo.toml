@@ -2,12 +2,11 @@
 name = "truelayer-quickpay"
 version = "0.1.0"
 edition = "2021"
+authors = ["Niklas Lindorfer <niklas@lindorfer.com>"]
 
 [[bin]]
 name = "pay"
 path = "src/main.rs"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 anyhow = "1"
@@ -15,7 +14,7 @@ base64 = "0.20"
 clap = { version = "4", features = ["derive"] }
 config = "0.13"
 dialoguer = "0.10"
-dirs = "4.0.0"
+dirs = "4"
 image = "0.24"
 indicatif = "0.17"
 regex = "1"
